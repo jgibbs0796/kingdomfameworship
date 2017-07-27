@@ -1,15 +1,15 @@
 <!DOCTYPE HTML>
-
-<html>
+<html lang="en">
 
 <title>Kingdom Fame Worship</title>
    
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
     
 <head>
+
 <style>
     
-        html { 
+    html { 
         background-image: url(DSC_0126.JPG);
         background-size: cover;
         background-repeat: no-repeat;
@@ -26,157 +26,231 @@
         padding: 5px;
         background-color:white;
     }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
-    opacity: 0.5;
-}
 
-li a {
-    float: right;
-}
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: black;
+        opacity: 0.5;
+    }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 7px 15px;
-    text-decoration: none;
-    font-family: "segoe";
-    font-weight: bold;
+    li a {
+        float: right;
+    }
 
-}
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 7px 15px;
+        text-decoration: none;
+        font-family: "segoe";
+        font-weight: bold;
+    }
     
     li {font-family: "Chalk";
     }
 
-li a:hover {
-    background-color: #989898;
-}
-</style>
-
+    li a:hover {
+        background-color: #989898;
+    }
     
-</head>
-<body>
-
-<style>
+<<<<<<< HEAD
     body {
-  padding: 20px;
-}
+        padding: 20px;
+    }
 
-.module {
-  width: 100%;
-  background: white;
-  position: relative;
-  margin: 0px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-  box-shadow: 
-    0 0 0 2px hsl(0, 0%, 50%);
-}
-    </style>
-    
+    .module {
+        width: 100%;
+        background: white;
+        position: relative;
+        margin: 0px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        box-shadow: 0 0 0 2px hsl(0, 0%, 50%);
+    }
+=======
 <nav>
     <ul>
         <li><a href="https://www.facebook.com/reachonecopiah/">Reach One</a></li>
-      <li><a href="mailto:jgibbs0796@gmail.com">Contact</a></li>
+      <li><a href="mailto:admin@kingdomfameworship.com">Contact</a></li>
      <li><a href="Events.html">Events</a></li>
         <li><a href="Blog.html">Blog</a></li>
     <li><a href="About.html">About</a></li>
     <li><a class="active" href="index.html">Home</a></li>
+>>>>>>> f7574811511fb53e52138272efe43d9428c24a7b
 
-  </ul>
-    </nav>    
-    
-<style>
     h1{font-size: 350%;}
-    @font-face
+        @font-face
     {
-    font-family: "Chalk";
-    src: url('SmudgieCrayon.ttf');
+        font-family: "Chalk";
+        src: url('SmudgieCrayon.ttf');
     }
-    @font-face
+        @font-face
     {
-    font-family: "segoe";
-    src: url('segoeui.ttf');
+        font-family: "segoe";
+        src: url('segoeui.ttf');
     }
-    @font-face
+        @font-face
     {
-    font-family: "Diamond";
-    src: url('Diamond_Dust.ttf');
+        font-family: "Diamond";
+        src: url('Diamond_Dust.ttf');
     }
 
     { margin: 0; padding: 0; }
+    
+    .fa {
+        padding: 10px;
+        font-size: 15px;
+        width: 13px;
+        text-align: center;
+        text-decoration: none;
+        margin: 10px 4px;
+        border-radius: 50%;
+    }
+
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+    .fa-facebook {
+        background: white;
+        color: black;
+    }
+
+    .fa-twitter {
+        background: white;
+        color: black;
+    }
+
+    .fa-youtube {
+        background: white;
+        color: black;
+    }
+
+    .fa-instagram {
+        background: white;
+        color: black;
+    }
+    
+    #menu-icon {
+
+        display: hidden;
+	    width: 40px;
+        height: 40px;
+	    background: black url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAp0lEQVRoQ+2WQQqAMAwE2/8/Ws8FYQ/JVLKs57iYmRCz1/BnD//+lQb+NhgDMVAkkBEqAiy/bmngKWNhAw7oXwbSACvgvB4sDcAAe+Mtt1AvIjgtBmDAMj4GJCK4wNJATombU2N5SowfIXgCeuMtt1AvIjgtBmDAMj4GJCK4wNLA+B9ZGrg59pbHHAywN95yC/UigtNiAAYs42NAIoILYgAGLOPHG3gBVmgMMZu6MsgAAAAASUVORK5CYII=) center;
+        opacity: .5;
+
+    }
+
+    a:hover#menu-icon {
+
+	    background-color: #444;
+	    border-radius: 4px 4px 0 0;
+
+    }
+    
+/*MEDIA QUERY*/
+@media only screen and (max-width : 640px) {
+
+	header {
+
+		position: absolute;
+
+	}
+
+	#menu-icon {
+
+		display:inline-block;
+
+	}
+
+	nav ul, nav:active ul { 
+
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #fff;
+		border: 5px solid #444;
+		right: 20px;
+		top: 60px;
+		width: 50%;
+		border-radius: 4px 0 4px 4px;
+
+	}
+
+	nav li {
+
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+
+	}
+
+	nav:hover ul {
+
+		display: block;
+
+	}
 
 </style>
 
-    <p align=center><font color=white><font face="segoe"><font size=2><i>"And I heard a loud voice from the throne saying, 'Behold, the dwelling place of God is with man. He will dwell with them, and they will be his people, and God himself will be with them as their God. He will wipe away every tear from their eyes, and death shall be no more, neither shall there be mourning, nor crying, nor pain anymore, for the former things have passed away.'" -<b>Revelations 21:3-4</b></i></font></font></font></p>
+</head>
 
+<body>
+
+<header>
+        
+<!--<a href="#" id="menu-icon"></a>-->
+
+<nav>
+    <ul>
+        <li><a href="https://www.facebook.com/reachonecopiah/">Reach One</a></li>
+        <li><a href="mailto:admin@kingdomfameworship.com">Contact</a></li>
+        <li><a href="Events.html">Events</a></li>
+        <li><a href="Blog.html">Blog</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a class="active" href="index.html">Home</a></li>
+    </ul>
+</nav>    
+
+</header>
+
+<p align=center><font color=white><font face="segoe"><font size=2><i>"And I heard a loud voice from the throne saying, 'Behold, the dwelling place of God is with man. He will dwell with them, and they will be his people, and God himself will be with them as their God. He will wipe away every tear from their eyes, and death shall be no more, neither shall there be mourning, nor crying, nor pain anymore, for the former things have passed away.'" -<b>Revelations 21:3-4</b></i></font></font></font></p>
   
-    <p style="color:white; font-size:130px; text-align: center"><font face="Chalk">Kingdom Fame Worship</font></p>
+<p style="color:white; font-size:130px; text-align: center"><font face="Chalk">Kingdom Fame Worship</font></p>
     
-    <p><font color=white><font face="Chalk"><font size=50px><i>About Us</i></font></font></font></p>
-    <p><font color=white><font face="segoe"><font size=4>Kingdom Fame Worship is a group of several worship leaders from different communities in Mississippi. Led by Anse Rigby, they seek to spread the message of Christ through song. Kingdom Fame Worhship has led worship for many different events and for many different denominations. If you would like Kingdom Fame Worship to lead worship at your next event, please contact us.</font></font></font></p>
-    <br />
+<p><font color=white><font face="Chalk"><font size=50px><i>About Us</i></font></font></font></p>
+    
+<p><font color=white><font face="segoe"><font size=4>Kingdom Fame Worship is a group of several worship leaders from different communities in Mississippi. Led by Anse Rigby, they seek to spread the message of Christ through song. Kingdom Fame Worhship has led worship for many different events and for many different denominations. If you would like Kingdom Fame Worship to lead worship at your next event, please contact us.</font></font></font></p>
 
-     <p><font color=white><font face="Chalk"><font size=50px><i>Pray</i></font></font></font></p> 
-    <p><font color=white><font face="segoe"><font size=4>We are called to be disciples. To help us in continuing our mission, we ask that you pray for us and for those we lead in worship. Pray that God will use us as a means to reach those who need Him. Pray for comfort for those that are hurting. Pray for peace for those who are not at peace. Pray for open eyes and open hearts. Pray.</font></font></font></p>
+<br />
+
+<p><font color=white><font face="Chalk"><font size=50px><i>Pray</i></font></font></font></p> 
+    
+<p><font color=white><font face="segoe"><font size=4>We are called to be disciples. To help us in continuing our mission, we ask that you pray for us and for those we lead in worship. Pray that God will use us as a means to reach those who need Him. Pray for comfort for those that are hurting. Pray for peace for those who are not at peace. Pray for open eyes and open hearts. Pray.</font></font></font></p>
 
 
         
     
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-.fa {
-  padding: 10px;
-  font-size: 15px;
-  width: 13px;
-  text-align: center;
-  text-decoration: none;
-  margin: 10px 4px;
-    border-radius: 50%;
 
-
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-  background: white;
-  color: black;
-}
-
-.fa-twitter {
-  background: white;
-  color: black;
-}
-
-.fa-youtube {
-  background: white;
-  color: black;
-}
-
-.fa-instagram {
-  background: white;
-  color: black;
-}
-
-
-
-</style>
 
 <footer style=" bottom: 0; right: 0; width: 100%; height:50px; text-align: left;">
 
-<!-- Add font awesome icons -->
+<!-- Social Media Icons -->
 <a href="https://www.facebook.com/kingdomfameworship/" class="fa fa-facebook"></a>
-<a href="#" class="fa fa-twitter"></a>
+<<<<<<< HEAD
+<a href="https://www.twitter.com/kingdomfame" class="fa fa-twitter"></a>
+<!--<a href="#" class="fa fa-youtube"></a>-->
+=======
+<a href="https://twitter.com/kingdomfame" class="fa fa-twitter"></a>
 <a href="#" class="fa fa-youtube"></a>
+>>>>>>> f7574811511fb53e52138272efe43d9428c24a7b
 <a href="https://www.instagram.com/kingdomfameworship/" class="fa fa-instagram"></a>
    
     
@@ -186,5 +260,9 @@ li a:hover {
 
 </body>
 
+<<<<<<< HEAD
+</html> 
+=======
 </html>
     
+>>>>>>> f7574811511fb53e52138272efe43d9428c24a7b
