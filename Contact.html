@@ -21,7 +21,7 @@
 <style>
     
     html { 
-        background-image: url(image6.jpg);
+        background-image: url(image7.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -146,6 +146,7 @@
 
     }
 
+    
 </style>
 
 </head>
@@ -156,7 +157,7 @@
 <nav>
     <ul>
         <li><a href="https://www.facebook.com/reachonecopiah/">Reach One</a></li>
-        <li><a href="Contact.html">Contact</a></li>
+        <li><a href="mailto:admin@kingdomfameworship.com">Contact</a></li>
         <li><a href="Events.html">Events</a></li>
         <li><a href="Blog.html">Blog</a></li>
         <li><a href="About.html">About</a></li>
@@ -164,11 +165,55 @@
     </ul>
 </nav>    
 
- 
-<p style="color:white; font-size:130px; text-align: center"><font face="Chalk">Kingdom Fame Worship</font></p>
-    
+
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-<p style="color:white; text-align: center">This page is currently under construction.</p>      
+    
+<p style="color:white; text-align: center">This page is currently under construction.</p>     
+    
+<!-- contact form -->
+    
+<form name="contactform" method="post" action="send_form_email.php">
+<table width="450px">
+<tr>
+ <td valign="top">
+     <label for="first_name"><font color=white><font face="segoe">First Name *</font></font></label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="first_name" maxlength="50" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+     <label for="last_name"><font color=white><font face="segoe">Last Name *</font></font></label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="last_name" maxlength="50" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+     <label for="email"><font color=white><font face="segoe">Email Address *</font></font></label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="email" maxlength="80" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+     <label for="comments"><font color=white><font face="segoe">Comments *</font></font></label>
+ </td>
+ <td valign="top">
+  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+ </td>
+</tr>
+<tr style="text-decoration: none">
+ <td colspan="2" style="text-align:center">
+     <input type="submit" value="Submit">   <a href="email_form.php"><font color=white><font face="segoe">Email Form</font></font></a>
+ </td>
+</tr>
+</table>
+</form>
+    
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
